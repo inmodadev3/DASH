@@ -1,0 +1,61 @@
+
+.scroll{
+	overflow:scroll;
+
+}
+@media screen and (max-width: 760px) {
+    .Session {
+        display: none;
+    }
+
+ 
+}
+@media screen and (min-width: 760px) {
+.SessionUL{
+    visibility: hidden;  
+}
+}
+
+
+.w-25{
+	width: 25%;
+
+}
+.w-35{
+	width: 35%;
+
+}
+.w-50{
+	width: 50%;
+}
+.w-100{
+	width:100%;
+}
+.display-inline-block{
+	display: inline-block;
+}
+.display-inline{
+	display: inline;
+}
+
+.float-right{
+float: right;;
+}
+.float-left{
+	float: left;
+}
+.display-none{
+	display:none;
+}
+.centrado-porcentual {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+.m-auto{
+
+	margin: auto;
+}
+
